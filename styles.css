@@ -1,0 +1,28 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    display: inline;
+}
+
+li::link{
+    color: black;
+}
+
+li::visited{
+    color: black;
+}
+
+footer{
+    position: absolute;
+    bottom: 0px;
+    background-color: #f0f0f0
+}
+  
