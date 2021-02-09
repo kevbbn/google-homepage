@@ -7,25 +7,23 @@
     </head>
 
     <body>
-
-        <header>
-                <ul>
-                    <div class="main-header" id="left-header">          
-                        <li class="first-li"id="about"><a href="https://about.google/">About</a></li>
-                        <li class="middle-li" id="store"><a href="https://store.google.com/">Store</a></li>
-                    </div>
-                    <div class="main-header" id="right-header">
-                        <li><a class="right-li" id="gmail" href="https://mail.google.com/">Gmail</a></li>
-                        <li><a class="right-li" id="images" href="https://www.google.com/imghp?hl=en&authuser=0&ogbl">Images</a></li>
-                        <li><a class="right-li" href=""><img id="google-apps" src="images/google-apps.svg" alt="Google Apps"></a></li>
-                        <li><a class="last-li" id="signin" href="https://accounts.google.com/signin/v2/identifier?hl=en&passive=true&continue=https%3A%2F%2Fwww.google.com%2F&ec=GAZAmgQ&flowName=GlifWebSignIn&flowEntry=ServiceLogin">Sign In</a></li>
-                    </div>
+        <header class="container">
+                <ul class="list header-list" id="header-left">
+                    <li><a class="header-left-li" id="about" href="https://about.google/">About</a></li>
+                    <li><a  class="header-left-li" id="store" href="https://store.google.com/">Store</a></li>
+                </ul>
+                <ul class="list header-list" id="header-right">
+                    <li><a class="header-right-li" id="gmail" href="https://mail.google.com/">Gmail</a></li>
+                    <li><a class="header-right-li" id="images" href="https://www.google.com/imghp?hl=en&authuser=0&ogbl">Images</a></li>
+                    <li><a class="header-right-li" href=""><img id="google-apps" src="images/google-apps.svg" alt="Google Apps"></a></li>
+                    <li><a class="header-right-li" id="signin" href="https://accounts.google.com/signin/v2/identifier?hl=en&passive=true&continue=https%3A%2F%2Fwww.google.com%2F&ec=GAZAmgQ&flowName=GlifWebSignIn&flowEntry=ServiceLogin">Sign In</a></li>
                 </ul>
         </header>
-
-        <div class="container">
+        <div class="center-container">
             <img id="google-pic" src="images/google-logo.png" alt="Google Logo">
             <div id="search">
+                <img id="google-glass" src="images/google-glass.png" alt="Google Magnifying Glass">
+                <img id="google-mic" src="images/google-mic.png" alt="Google Microphone">
                 <form>
                     <label for="search"></label>
                     <input type="text" id="search" name="search"><br>
@@ -37,18 +35,17 @@
             </div>
         </div>
 
-        <footer>
-            <ul>
-                <div class="main-footer footer-li" id="left-footer">
-                    <li><a class="first-li footer-li" id="advertising" href="https://www.google.com/intl/en_us/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Advertising</a></li>
-                    <li><a class="middle-li footer-li" id="business" href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1">Business</a></li>
-                    <li><a class="middle-li footer-li" id="how" href="https://google.com/search/howsearchworks/?fg=1">How Search works</a></li>
-                </div>
-                <div class="main-footer footer-li" id="right-footer">
-                    <li><a class="right-li footer-li" id="privacy" href="https://policies.google.com/privacy?hl=en&fg=1">Privacy</a></li>
-                    <li><a class="right-li footer-li" id="terms" href="https://policies.google.com/terms?hl=en&fg=1">Terms</a></li>
-                    <li><a class="last-li footer-li" id="settings" href="https://www.google.com/preferences?hl=en&fg=1">Settings</a></li>
-                </div>
+        <footer class="container" id="footer">
+                <ul class="list footer-list" id="footer-left">
+                    <li><a class="footer-left-li" id="advertising" href="https://www.google.com/intl/en_us/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Advertising</a></li>
+                    <li><a class="footer-left-li" id="business" href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1">Business</a></li>
+                    <li><a class="footer-left-li" id="how" href="https://google.com/search/howsearchworks/?fg=1">How Search works</a></li>
+                </ul>
+                <ul class="list footer-list" id="footer-right">
+                    <li><a class="footer-right-li" id="privacy" href="https://policies.google.com/privacy?hl=en&fg=1">Privacy</a></li>
+                    <li><a class="footer-right-li" id="terms" href="https://policies.google.com/terms?hl=en&fg=1">Terms</a></li>
+                    <li><a class="footer-right-li" id="settings" href="https://www.google.com/preferences?hl=en&fg=1">Settings</a></li>
+                </ul>
             </ul>
         </footer>
     </body>
