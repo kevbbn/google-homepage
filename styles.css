@@ -133,10 +133,11 @@ form{
 button{
     border: none;
     background-color:rgb(247, 247, 247);
-    padding: 12px 8px 8px 12px;
+    padding: 12px 8px 10px 12px;
     margin-right: 10px;
     margin-top: 30px;
     border-radius: 6%;
+    text-align: center;
     cursor: pointer;
 }
 button:hover{
