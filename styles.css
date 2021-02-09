@@ -45,6 +45,11 @@ a:active {
     color: rgb(77, 77, 77);
 }
 
+#signin:hover{
+    background-color: rgba(53, 130, 245, 0.815);
+    text-decoration: none;
+}
+
 #google-apps{
     max-height: 1.2em;
     max-width: 1.2em;
